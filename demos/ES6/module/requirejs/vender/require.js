@@ -521,7 +521,7 @@ var requirejs, require, define;
                 if (mod.error && name === 'error') {
                     fn(mod.error);
                 } else {
-                    mod.on(name, fn);
+                    mod.on (name, fn);
                 }
             }
         }
